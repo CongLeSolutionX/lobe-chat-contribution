@@ -297,5 +297,12 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "trustedDependencies": [
+    "@clerk/shared",
+    "@sentry/cli",
+    "@vercel/speed-insights",
+    "core-js",
+    "core-js-pure"
+  ]
 }
